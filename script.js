@@ -247,7 +247,8 @@ function refresh(){
     };
     xhr2.send();
 }
-NotLogged = true;
+// NotLogged = true;
+NotLogged = false;
 if (NotLogged) {
     userIcon.innerHTML = '<i class="fa-solid fa-user-xmark"></i>';
     setTimeout(function () {
