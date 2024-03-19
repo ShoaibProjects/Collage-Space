@@ -353,7 +353,7 @@
             <div class="aside">
                 <div class="aside-cont">
                     <h1>Team Analytics</h1>
-                    <!-- <table class="table"> -->
+                    <!-- <table class="table">
                         <tr>
                             <th>Rank</th>
                             <th>Team</th>
@@ -511,7 +511,7 @@
                                 </div>
                             </td>
                         </tr>
-                    </table>
+                    </table> -->
                 </div>
             </div>
         </div>
