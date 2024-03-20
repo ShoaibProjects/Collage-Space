@@ -15,6 +15,7 @@ if (strpos($uri, '/css/') === 0 || strpos($uri, '/js/') === 0) {
     }
 }
 
+
 ?>
 
 <!DOCTYPE html>
