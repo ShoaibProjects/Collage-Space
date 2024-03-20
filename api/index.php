@@ -1,21 +1,5 @@
 <?php
 //  require 'connection.php';
-$uri = $_SERVER['REQUEST_URI'];
-
-// Serve CSS and JS files
-if (strpos($uri, '/css/') === 0 || strpos($uri, '/js/') === 0) {
-    $file = __DIR__ . '/..' . $uri;
-    if (file_exists($file)) {
-        header('Content-Type: ' . mime_content_type($file));
-        readfile($file);
-        exit;
-    } else {
-        http_response_code(404);
-        exit;
-    }
-}
-
-
 ?>
 
 <!DOCTYPE html>
