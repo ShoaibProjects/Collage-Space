@@ -191,7 +191,7 @@
             <div class="about-layout">
                 <div class="about-fh">
                     <div class="about-para-cont">
-                        <img src="https://lh3.googleusercontent.com/proxy/ntQZaHSZSjzVxNVvgKrH2rIWSbb2DgTGgkB2NtO4WAJFLolt2ZT9y9LL2_IqzI2BnybiwB5T9TKmeckJ7oKaQaKsJbzDtFgeWuUxUk7OHtyTADcI6hOp3LbaTmPysRTJR99UcyP5GHINrRv9CeoYhtt3MQK3RiwiQFA9XoKFXw"
+                        <img src="http://uploads.edubilla.com/institution/logo/17/97/thakur-shivkumarsingh-memorial-engineering-college339.png"
                             alt="">
                         <p>
                             We are Thakur Shivkumarsingh Engineering College aka <strong>TSEC's</strong> most talented
