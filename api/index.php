@@ -170,7 +170,7 @@
                     alt="">
             </div>
             <div class="gallery">
-                <img src="../public/images/tsec-row-1.jpg"
+                <img src="images/tsec-row-1.jpg"
                     alt="">
                 <img src="../public/images/tsec-row-2.jpg"
                     alt="">
