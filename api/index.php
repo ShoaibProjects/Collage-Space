@@ -170,15 +170,15 @@
                     alt="">
             </div>
             <div class="gallery">
-                <img src="https://www.collegebatch.com/static/clg-gallery/thakur-shivkumarsingh-memorial-engineering-college-tsec-burhanpur-141548.jpg"
+                <img src="../public/images/tsec-row-1.jpg"
                     alt="">
-                <img src="https://www.collegebatch.com/static/clg-gallery/thakur-shivkumarsingh-memorial-engineering-college-tsec-burhanpur-141550.jpg"
+                <img src="../public/images/tsec-row-2.jpg"
                     alt="">
-                <img src="https://www.collegebatch.com/static/clg-gallery/thakur-shivkumarsingh-memorial-engineering-college-tsec-burhanpur-141551.jpg"
+                <img src="../public/images/tsec-row-3.jpg"
                     alt="">
-                <img src="https://www.vidyavision.com/CollegeUploads/Photos/2017-17-11-17-47-08_download%20(1).jpg"
+                <img src="../public/images/tsec-row-4.jpg"
                     alt="">
-                <img src="https://www.collegebatch.com/static/clg-gallery/thakur-shivkumarsingh-memorial-engineering-college-tsec-burhanpur-141549.jpg"
+                <img src="../public/images/tsec-row-5.jpg"
                     alt="">
             </div>
         </section>
