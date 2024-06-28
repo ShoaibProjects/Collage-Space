@@ -128,7 +128,7 @@
     </div>
     <header>
         <nav>
-            <div class="logo"><img src="images/logo.png"
+            <div class="logo"><img src="https://ramantivirus.net/wp-content/uploads/2022/06/Untitled-design-2.png"
                     alt=""></div>
             <div class="nav-links">
                 <a href="#homeid">Home</a>
