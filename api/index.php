@@ -172,13 +172,13 @@
             <div class="gallery">
                 <img src="images/tsec-row-1.jpg"
                     alt="">
-                <img src="../public/images/tsec-row-2.jpg"
+                <img src="images/tsec-row-2.jpg"
                     alt="">
-                <img src="../public/images/tsec-row-3.jpg"
+                <img src="images/tsec-row-3.jpg"
                     alt="">
-                <img src="../public/images/tsec-row-4.jpg"
+                <img src="images/tsec-row-4.jpg"
                     alt="">
-                <img src="../public/images/tsec-row-5.jpg"
+                <img src="images/tsec-row-5.jpg"
                     alt="">
             </div>
         </section>
