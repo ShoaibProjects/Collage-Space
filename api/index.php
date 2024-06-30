@@ -298,10 +298,10 @@
                             </div>
                         </div>
                         <div class="notes-cards">
-                            <div class="videos-card"><i class="fa-brands fa-youtube"></i>Study Videos</div>
-                            <div class="qp-card"><i class="fa-solid fa-file-circle-question"></i>Question Papers</div>
-                            <div class="notes-card"><i class="fa-solid fa-clipboard"></i>Notes</div>
-                            <div class="pdf-card"><i class="fa-solid fa-book-open"></i>Text Books</div>
+                            <a href=""><div class="videos-card"><i class="fa-brands fa-youtube"></i>Study Videos</div></a>
+                            <a href=""><div class="qp-card"><i class="fa-solid fa-file-circle-question"></i>Question Papers</div></a>
+                            <a href=""><div class="notes-card"><i class="fa-solid fa-clipboard"></i>Notes</div></a>
+                            <a href=""><div class="pdf-card"><i class="fa-solid fa-book-open"></i>Text Books</div></a>
                         </div>
 
                     </div>
