@@ -340,12 +340,12 @@
                             </div>
                         </div>
                         <div class="fac-cards">
-                            <div class="rkv-sir"><i class="fa-solid fa-user-tie"></i>Raj k. Verma Sir</div>
-                            <div class="vy-sir"><i class="fa-solid fa-user-tie"></i>Vikas k. Yadav Sir</div>
-                            <div class="sg-sir"><i class="fa-solid fa-user-tie"></i>Swapnil Gupta Sir</div>
-                            <div class="am-mam"><i class="fa-solid fa-user-tie"></i>Ayushi Malwi Mam</div>
-                            <div class="j-mam"><i class="fa-solid fa-user-tie"></i>Jinal Mam</div>
-                            <div class="n-mam"><i class="fa-solid fa-user-tie"></i>Neha Mam</div>
+                            <a href="https://www.linkedin.com/in/raj-kumar-verma-02425067/"><div class="rkv-sir"><i class="fa-solid fa-user-tie"></i>Raj k. Verma Sir</div></a>
+                            <a href="https://www.facebook.com/vikaskumar.yadav3"><div class="vy-sir"><i class="fa-solid fa-user-tie"></i>Vikas k. Yadav Sir</div></a>
+                            <a href="https://www.facebook.com/profile.php?id=100008339778256"><div class="sg-sir"><i class="fa-solid fa-user-tie"></i>Swapnil Gupta Sir</div></a>
+                            <a href="https://www.linkedin.com/in/ayushi-malvi-0291b414b/"><div class="am-mam"><i class="fa-solid fa-user-tie"></i>Ayushi Malwi Mam</div></a>
+                            <a href="https://www.facebook.com/profile.php?id=100005002127687"><div class="j-mam"><i class="fa-solid fa-user-tie"></i>Probodhini mam</div></a>
+                            <a href="https://www.linkedin.com/in/vardangupta786/"><div class="n-mam"><i class="fa-solid fa-user-tie"></i>Vardan gupta sir</div></a>
                         </div>
                     </div>
                 </section>

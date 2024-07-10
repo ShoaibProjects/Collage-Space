@@ -682,6 +682,9 @@ td:nth-child(2){
     gap: 2rem;
     padding: 8% 15% 8% 15%;
 }
+.fac-cards a{
+    text-decoration: none;
+}
 .fac-cards div{
     background: linear-gradient(var(--ws),var(--w));
     border-radius: 1rem;
@@ -696,6 +699,7 @@ td:nth-child(2){
     font-size: 1.25rem;
     padding: 3rem 0%;
     cursor: pointer;
+    height: 100%;
 }
 
 .fac-cards div i{
