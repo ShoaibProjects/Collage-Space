@@ -40,6 +40,7 @@ let modeBtn = document.getElementById('modeBtn');
 let NotLogged = true;
 let account = true;
 let dark = false;
+let stats = false;
 modeSwitcher();
 let xhr4= new XMLHttpRequest();
         xhr4.open('POST', 'sessionCheck.php', false);
@@ -314,26 +315,27 @@ if (NotLogged) {
                         userCredencials.team = responseData.Team;
                         userCredencials.desc = responseData.Desc;
                         userCredencials.role = responseData.Role;
+                        alert("form submitted successfully!");
                     }
                     if(responseData.Status=="usernameDuplication"){
-                        console.log('username taken');
+                        alert('username taken');
                     }
                     if(responseData.Status=="EmptyUsername"){
-                        console.log('username empty');
+                        alert('username empty');
                     }
                     if(responseData.Status=="EmptyPassword"){
-                        console.log('password empty');
+                        alert('password empty');
                     }
                     if(responseData.Status=="LessThan8Chars"){
-                        console.log('Password must be at least 8 characters');
+                        alert('Password must be at least 8 characters');
                     }
                 }
             };
             xhr.send(JSON.stringify(formData));
-            console.log("form submitted successfully!");
+            // alert("form submitted successfully!");
         }
         else{
-            console.log("Please correctly fill the form");
+            alert("Please correctly fill the form");
         }
 
     }
@@ -363,8 +365,8 @@ if (NotLogged) {
             xhr3.onload = function(){
                 if(xhr3.status === 200){
                     let responseData = JSON.parse(xhr3.responseText);
-                    console.log(responseData.Status);
-                    if(responseData.Status=='OK'){
+                    alert(responseData.Status);
+                    if(responseData.Status=='Done'){
                         valid();
                         userInfo.nameInfo.innerHTML = responseData.name;
                         switch(responseData.team){
@@ -405,5 +407,77 @@ if (NotLogged) {
 else{
     userIcon.innerHTML = '<i class="fa-solid fa-user"></i>';
 }
+let hamClick = false;
+let hamBtn = document.getElementById('hamBtn');
+hamBtn.addEventListener('click', function(){
+    hamClick=!hamClick;
+    if(hamClick){
+        body.classList.add('nav-active');
+        hamBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+    }
+    else{
+        body.classList.remove('nav-active');
+        hamBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    }
+});
 
+const draggable = document.getElementById('draggable');
+let isDragging = false;
+let holdTimeout;
+let startX, startY;
+const holdDelay = 1000; // Time in milliseconds to hold before dragging starts
 
+draggable.addEventListener('touchstart', (event) => {
+  event.preventDefault();
+  isDragging = false;
+
+  const touch = event.touches[0];
+  startX = touch.clientX;
+  startY = touch.clientY;
+
+  const shiftX = touch.clientX - draggable.getBoundingClientRect().left;
+  const shiftY = touch.clientY - draggable.getBoundingClientRect().top;
+
+  const moveAt = (pageX, pageY) => {
+    draggable.style.left = pageX - shiftX + 'px';
+    draggable.style.top = pageY - shiftY + 'px';
+  };
+
+  const onTouchMove = (event) => {
+    if (isDragging) {
+      const touch = event.touches[0];
+      moveAt(touch.pageX, touch.pageY);
+    }
+  };
+
+  function statsView(){
+            if(stats){
+                body.classList.add('stats-active');
+                draggable.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+            }
+            else{
+                body.classList.remove('stats-active');
+                draggable.innerHTML = '<i class="fa-solid fa-chart-line"></i>';
+            }
+  }
+
+  const onTouchEnd = () => {
+    clearTimeout(holdTimeout);
+    document.removeEventListener('touchmove', onTouchMove);
+    document.removeEventListener('touchend', onTouchEnd);
+    if (!isDragging) {
+        stats=!stats;
+        statsView();
+    }    
+  };
+
+  holdTimeout = setTimeout(() => {
+    isDragging = true;
+    document.addEventListener('touchmove', onTouchMove);
+    document.addEventListener('touchend', onTouchEnd);
+  }, holdDelay);
+
+  document.addEventListener('touchend', onTouchEnd, { once: true });
+});
+
+draggable.addEventListener('dragstart', () => false);

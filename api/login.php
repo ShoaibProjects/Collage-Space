@@ -29,7 +29,7 @@ if($result->num_rows>0){
         $_SESSION['team'] = $row['Team'];
         $_SESSION['desc'] = $row['Description'];
         $_SESSION['role'] = $row['Role'];
-        $info = array('Status'=>'OK','name'=>$username,'team'=>$_SESSION['team'],'desc'=>$_SESSION['desc'],'role'=>$_SESSION['role']);
+        $info = array('Status'=>'Done','name'=>$username,'team'=>$_SESSION['team'],'desc'=>$_SESSION['desc'],'role'=>$_SESSION['role']);
         echo json_encode($info);
         if(!empty($remember)){
             $remember = generateCookie();
@@ -38,12 +38,12 @@ if($result->num_rows>0){
         }
     }
     else{
-        $info = array('Status'=>'WrongPword');
+        $info = array('Status'=>'Wrong Password!');
         echo json_encode($info);
     }
 }
 else {
-    $info = array('Status'=>'notOK');
+    $info = array('Status'=>'Username not found!');
     echo json_encode($info);
 }
     }

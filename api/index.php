@@ -138,11 +138,13 @@
                 <a href="#users-id">Users</a>
                 <a href="#fac-id">Faculty</a>
             </div>
-            <a href="#users-id"><button id='usericon'></button></a>
+            <a class='nav-a' href="#users-id"><button id='usericon'></button></a>
             <button id='modeBtn'></button>
+            <button id='hamBtn'><i class="fa-solid fa-bars"></i></button>
         </nav>
     </header>
     <main>
+        <button class='draggable' id='draggable'><i class="fa-solid fa-chart-line"></i></button>
         <section class="home" id="homeid">
             <div class="wave"></div>
             <div class="home-heading">
@@ -176,9 +178,9 @@
                     alt="">
                 <img src="images/tsec-row-3.jpg"
                     alt="">
-                <img src="images/tsec-row-4.jpg"
-                    alt="">
                 <img src="images/tsec-row-5.jpg"
+                    alt="">
+                <img src="images/tsec-row-4.jpg"
                     alt="">
             </div>
         </section>
@@ -191,7 +193,7 @@
             <div class="about-layout">
                 <div class="about-fh">
                     <div class="about-para-cont">
-                        <img src="https://lh3.googleusercontent.com/proxy/ntQZaHSZSjzVxNVvgKrH2rIWSbb2DgTGgkB2NtO4WAJFLolt2ZT9y9LL2_IqzI2BnybiwB5T9TKmeckJ7oKaQaKsJbzDtFgeWuUxUk7OHtyTADcI6hOp3LbaTmPysRTJR99UcyP5GHINrRv9CeoYhtt3MQK3RiwiQFA9XoKFXw"
+                        <img src="https://th.bing.com/th/id/OIP.pUYxqe8arn-scUzD54K90AAAAA?rs=1&pid=ImgDetMain"
                             alt="">
                         <p>
                             We are Thakur Shivkumarsingh Engineering College aka <strong>TSEC's</strong> most talented
@@ -298,10 +300,10 @@
                             </div>
                         </div>
                         <div class="notes-cards">
-                            <a href=""><div class="videos-card"><i class="fa-brands fa-youtube"></i>Study Videos</div></a>
-                            <a href=""><div class="qp-card"><i class="fa-solid fa-file-circle-question"></i>Question Papers</div></a>
-                            <a href=""><div class="notes-card"><i class="fa-solid fa-clipboard"></i>Notes</div></a>
-                            <a href=""><div class="pdf-card"><i class="fa-solid fa-book-open"></i>Text Books</div></a>
+                            <a href="https://www.youtube.com/@GateSmashers"><div class="videos-card"><i class="fa-brands fa-youtube"></i>Study Videos</div></a>
+                            <a href="https://www.rgpvonline.com/"><div class="qp-card"><i class="fa-solid fa-file-circle-question"></i>Question Papers</div></a>
+                            <a href="https://www.rgpvnotes.in/btech/grading-system-old/notes/"><div class="notes-card"><i class="fa-solid fa-clipboard"></i>Notes</div></a>
+                            <a href="https://www.rgpv.ac.in/campus/elibrary20.html"><div class="pdf-card"><i class="fa-solid fa-book-open"></i>Text Books</div></a>
                         </div>
 
                     </div>
@@ -341,7 +343,7 @@
                         </div>
                         <div class="fac-cards">
                             <a href="https://www.linkedin.com/in/raj-kumar-verma-02425067/"><div class="rkv-sir"><i class="fa-solid fa-user-tie"></i>Raj k. Verma Sir</div></a>
-                            <a href="https://www.facebook.com/vikaskumar.yadav3"><div class="vy-sir"><i class="fa-solid fa-user-tie"></i>Vikas k. Yadav Sir</div></a>
+                            <a href="https://www.facebook.com/vikaskumar.yadav3"><div id="vy-sir"><i class="fa-solid fa-user-tie"></i>Vikas k. Yadav Sir</div></a>
                             <a href="https://www.facebook.com/profile.php?id=100008339778256"><div class="sg-sir"><i class="fa-solid fa-user-tie"></i>Swapnil Gupta Sir</div></a>
                             <a href="https://www.linkedin.com/in/ayushi-malvi-0291b414b/"><div class="am-mam"><i class="fa-solid fa-user-tie"></i>Ayushi Malwi Mam</div></a>
                             <a href="https://www.facebook.com/profile.php?id=100005002127687"><div class="j-mam"><i class="fa-solid fa-user-tie"></i>Probodhini mam</div></a>
@@ -565,10 +567,6 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
-    <script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
 </body>
 
 </html>
