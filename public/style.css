@@ -453,7 +453,7 @@ ion-icon{
 .teams-logo{
     flex: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 8% 15% 8% 15%;
 }
